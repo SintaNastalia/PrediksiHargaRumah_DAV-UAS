@@ -1,0 +1,4 @@
+Model,MSE
+linear_regression,7.251745953887926e+18
+random_forest,6.394964934460687e+18
+gradient_boosting,5.852512689743401e+18

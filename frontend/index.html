@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Prediksi Harga Rumah</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Web Prediksi Harga Rumah</h1>
+        <img src="logo.jpg" width="250" height="45"/>
+    </div>
+    <div class="container">
+        <form id="prediction-form">
+            <div>
+                <label for="type">Pilih Tipe Rumah:</label>
+                <select id="type" name="type">
+                    <option value="villa">Villa</option>
+                    <option value="rumah">Rumah</option>
+                </select>
+            </div>
+            <div>
+                <label for="bedroom">Masukkan Jumlah Kamar Tidur:</label>
+                <input type="number" id="bedroom" name="bedroom">
+            </div>
+            <div>
+                <label for="bathroom">Masukkan Jumlah Kamar Mandi:</label>
+                <input type="number" id="bathroom" name="bathroom">
+            </div>
+            <div>
+                <label for="carport">Masukkan Jumlah Carport:</label>
+                <input type="number" id="carport" name="carport">
+            </div>
+            <div>
+                <label for="land_area">Masukkan Luas Tanah:</label>
+                <input type="number" id="land_area" name="land_area">
+            </div>
+            <div>
+                <label for="build_area">Masukkan Luas Bangunan:</label>
+                <input type="number" id="build_area" name="build_area">
+            </div>
+            <div>
+                <label for="method">Pilih Metode Prediksi:</label>
+                <select id="method" name="method" class="method">
+                    <option value="linear_regression">Linear Regression</option>
+                    <option value="random_forest">Random Forest</option>
+                    <option value="gradient_boosting">Gradient Boosting</option>
+                </select>
+            </div>
+            <button type="button" id="predictButton">Prediksi</button>
+            <div id="error-message" style="color: red; display: none;"></div>
+            <div id="successMessage" style="display:none; color: blue;"></div>
+        </form>
+        <div id="map">
+            <object id="mapBali" type="image/svg+xml" data="mapBali4.svg" width="800" height="600"></object>
+            <div id="tooltip" style="display:none; position: absolute; background: #fff; border: 1px solid #000; padding: 10px;"></div>
+        </div>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
