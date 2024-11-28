@@ -37,35 +37,46 @@ Clone repository ini ke komputer Anda:
 ```bash
 git clone https://github.com/SintaNastalia/PrediksiHargaRumah_DAV-UAS.git
 cd PrediksiHargaRumah_DAV-UAS
+```
 
 
 ### 2. Buat Virtual Environment (Opsional)
 Disarankan untuk menjalankan aplikasi dalam virtual environment:
+```bash
 python -m venv venv
 source venv/bin/activate      # Untuk Mac/Linux
 venv\Scripts\activate         # Untuk Windows
+```
 
 
 ### 3. Install Dependency
 Install semua dependency Python yang tercatat dalam requirements.txt:
+```bash
 pip install -r requirements.txt
+```
 
 
 ### 4. Jalankan Aplikasi Flask (Backend)
 Jalankan aplikasi Flask:
+```bash
 python app.py
+```
 Aplikasi backend akan berjalan di http://127.0.0.1:5000. Jangan tutup terminal ini selama aplikasi digunakan.
 
 
 ### 5. Jalankan Frontend
 Untuk menjalankan frontend, buka folder yang berisi file frontend Anda, lalu jalankan perintah berikut:
+```bash
 python -m http.server
+```
 Server frontend akan berjalan di http://127.0.0.1:8000. Buka URL tersebut di browser untuk mengakses frontend.
 
 
 ### 6. Akses Aplikasi
+```bash
 Frontend: http://127.0.0.1:8000
 Backend: http://127.0.0.1:5000
+```
 
 
 
