@@ -33,7 +33,7 @@ Berdasarkan hasil perbandingan Mean Squared Error (MSE) dari ketiga model yang d
 ## Cara Menjalankan
 
 ### 1. Clone Repository
-Clone repository ini ke komputer Anda:
+Clone repository ini ke komputer:
 ```bash
 git clone https://github.com/SintaNastalia/PrediksiHargaRumah_DAV-UAS.git
 cd PrediksiHargaRumah_DAV-UAS
@@ -65,7 +65,7 @@ Aplikasi backend akan berjalan di http://127.0.0.1:5000. Jangan tutup terminal i
 
 
 ### 5. Jalankan Frontend
-Untuk menjalankan frontend, buka folder yang berisi file frontend Anda, lalu jalankan perintah berikut:
+Untuk menjalankan frontend, buka folder yang berisi file frontend, lalu jalankan perintah berikut:
 ```bash
 python -m http.server
 ```
@@ -81,9 +81,9 @@ Backend: http://127.0.0.1:5000
 
 
 ## Catatan
-Python Version: Pastikan Anda menggunakan Python versi 3.7 atau lebih tinggi.
-Model: File .pkl adalah model machine learning yang sudah dilatih. Anda dapat mengganti model ini dengan model lain jika diperlukan.
+Python Version: Pastikan menggunakan Python versi 3.7 atau lebih tinggi.
+Model: File .pkl adalah model machine learning yang sudah dilatih.
 
 
 ## Kontribusi
-Jika Anda memiliki saran atau ingin menambahkan fitur baru, silakan buat pull request atau buka issue baru di repository ini.
+Jika memiliki saran atau ingin menambahkan fitur baru, silakan buat pull request atau buka issue baru di repository ini.
